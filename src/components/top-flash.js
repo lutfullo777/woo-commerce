@@ -16,7 +16,7 @@ const Topflash = () => {
           right: 0,
         }}
         width="963"
-        height="1087"
+        height="100%"
         viewBox="0 0 963 1087"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const Topflash = () => {
         style={{
           width: "400px",
           position: "absolute",
-          top: 900,
+          top: 770,
           left: 0,
           right: 0,
           margin: " auto",

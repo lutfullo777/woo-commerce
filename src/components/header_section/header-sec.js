@@ -17,7 +17,7 @@ const HeaderSec = () => {
           textAlign: "left",
           position: "absolute",
           zIndex: 1,
-          top: 200,
+          top: 100,
         }}
         className="section-div"
       >
@@ -36,7 +36,7 @@ const HeaderSec = () => {
         className="section-div"
         style={{
           position: "absolute",
-          top: 200,
+          top: 100,
           right: 0,
           zIndex: 1,
           padding: "20px 0",
