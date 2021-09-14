@@ -16,6 +16,7 @@ import image13 from "../../assets/Rectangle 228.png";
 import "./page2.css";
 
 const Page2 = () => {
+  const link = window.location.href;
   return (
     <div className="page2">
       <ul>
@@ -30,7 +31,7 @@ const Page2 = () => {
             Add WooCommerce plugin to any WordPress site and set up a new store
             in minutes.
           </p>
-          <a style={{ margin: "0 40px" }} href="#">
+          <a style={{ margin: "0 40px" }} href={link}>
             Ecommerce for Wordpress ›
           </a>
         </li>
@@ -57,7 +58,7 @@ const Page2 = () => {
             From subscriptions to gym classes to luxury cars, WooCommerce is
             fully customizable.
           </p>
-          <a style={{ margin: "0 40px" }} href="#">
+          <a style={{ margin: "0 40px" }} href={link}>
             Browse Extensions ›
           </a>
         </li>
@@ -103,7 +104,7 @@ const Page2 = () => {
           <p style={{ color: " #94A2B3", margin: "10px 40px" }}>
             WooCommerce is one of the fastest-growing eCommerce communities.
           </p>
-          <a style={{ margin: "0 40px" }} href="#">
+          <a style={{ margin: "0 40px" }} href={link}>
             Check our Forums ›
           </a>
         </li>
