@@ -1,0 +1,16 @@
+.page2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.page2 ul {
+  position: relative;
+  display: flex;
+  list-style: none;
+  width: 390px;
+}
+.page2 ul li {
+  text-align: left;
+}
+.page2 ul li img {
+  width: 100%;
+}

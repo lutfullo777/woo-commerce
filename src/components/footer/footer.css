@@ -1,0 +1,32 @@
+.footer {
+  background-color: #7854f7;
+  height: 800px;
+}
+.footer-links li {
+  justify-content: space-around;
+  position: relative;
+}
+.footer-links li ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+}
+.footer-links li ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.footer-links li ul li:hover {
+  text-decoration: underline;
+}
+.icons {
+  width: 150px;
+  padding: 0;
+}
+.icons li {
+  width: 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #272d4e;
+  display: flex;
+  align-items: center;
+}

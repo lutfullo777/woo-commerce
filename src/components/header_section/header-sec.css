@@ -1,0 +1,151 @@
+.ellipse {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 250px;
+}
+.ellipse li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  display: flex;
+}
+.section-div {
+  width: 50%;
+}
+
+.sale,
+.sale div {
+  width: 100%;
+}
+.sale div {
+  padding: 20px;
+  text-align: center;
+}
+
+.sale {
+  display: flex;
+  background-color: #fff;
+  margin-top: 100px;
+  /* text-align: left; */
+}
+.sale img {
+  width: 350px;
+}
+.shoes-size {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.shoes-size li {
+  width: 30px;
+  height: 30px;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  color: #868686;
+}
+.shoes-num {
+  display: flex;
+  width: 150px;
+  list-style: none;
+  border-radius: 5px;
+}
+.shoes-num li {
+  width: 50px;
+  height: 40px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #70c217;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #70c217;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.payment {
+  padding: 20px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -200px;
+}
+.payment ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.payment ul li {
+  color: #94a2b3;
+  width: 33.3%;
+  height: 50px;
+}

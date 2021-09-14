@@ -1,0 +1,13 @@
+.top-flash {
+  position: relative;
+  margin: 0;
+  height: 180vh;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(
+    180deg,
+    #e5efff 0%,
+    rgba(229, 239, 255, 0.4) 90%,
+    rgba(229, 239, 255, 0) 100%
+  );
+}

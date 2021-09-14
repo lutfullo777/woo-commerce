@@ -1,0 +1,28 @@
+.header-button{
+    margin: 0 15px;
+width: 120px;
+height: 47px;
+left: 1699px;
+top: 37px;
+
+background: #7854F7;
+border-radius: 5px;
+}
+.head-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+font-weight: 500;
+color: #272D4E;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+@media (min-width:991px){
+    .head-sec{
+        margin-left: 40%;
+    }
+}

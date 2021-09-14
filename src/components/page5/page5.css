@@ -1,0 +1,22 @@
+.page5-div1 {
+  position: relative;
+  height: 400px;
+}
+.page5-div2 {
+  width: 100%;
+  background-color: #5f37ef;
+  height: 200px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.page5-div2 div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 100px;
+}
