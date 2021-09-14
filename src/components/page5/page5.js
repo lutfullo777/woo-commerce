@@ -102,7 +102,7 @@ const Page5 = () => {
             transform: "translateX(-50%)",
             bottom: 0,
             zIndex: 1,
-            width: "900px",
+            width: "70%",
           }}
         />
         <svg
@@ -115,7 +115,7 @@ const Page5 = () => {
             right: 0,
             bottom: -200,
           }}
-          width="1300px"
+          width="85%"
           height="379"
           viewBox="0 0 1544 379"
           fill="none"

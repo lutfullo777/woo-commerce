@@ -69,32 +69,32 @@ const Page4 = () => {
       <img
         src={image1}
         alt="ellipse1"
-        style={{ position: "absolute", top: 50, left: 300, width: 100 }}
+        style={{ position: "absolute", top: 50, left: '20%', width: 100 }}
       />
       <img
         src={image2}
         alt="ellipse2"
-        style={{ position: "absolute", top: 220, left: 50, width: 80 }}
+        style={{ position: "absolute", top: 220, left: '10%', width: 80 }}
       />
       <img
         src={image3}
         alt="ellipse3"
-        style={{ position: "absolute", top: 450, left: 130, width: 90 }}
+        style={{ position: "absolute", top: 450, left: '15%', width: 90 }}
       />
       <img
         src={image4}
         alt="ellipse4"
-        style={{ position: "absolute", top: 30, right: 300, width: 90 }}
+        style={{ position: "absolute", top: 30, right: '25%', width: 90 }}
       />
       <img
         src={image5}
         alt="ellipse5"
-        style={{ position: "absolute", top: 240, right: 70, width: 110 }}
+        style={{ position: "absolute", top: 240, right: '15%', width: 110 }}
       />
       <img
         src={image6}
         alt="ellipse6"
-        style={{ position: "absolute", top: 450, right: 230, width: 60 }}
+        style={{ position: "absolute", top: 450, right: '22%', width: 60 }}
       />
     </div>
   );

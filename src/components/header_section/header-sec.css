@@ -13,9 +13,10 @@
 }
 .section {
   display: flex;
+  justify-content: space-between;
 }
 .section-div {
-  width: 50%;
+  width: 600px;
 }
 
 .sale,
@@ -42,6 +43,7 @@
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
+  width: 250px;
 }
 .shoes-size li {
   width: 30px;
@@ -60,6 +62,7 @@
   width: 150px;
   list-style: none;
   border-radius: 5px;
+  margin-top: 10px;
 }
 .shoes-num li {
   width: 50px;
@@ -148,4 +151,13 @@ input:checked + .slider:before {
   color: #94a2b3;
   width: 33.3%;
   height: 50px;
+}
+
+@media (max-width: 700px) {
+  .section {
+    flex-direction: column;
+  }
+  .section-div {
+    left: 0;
+  }
 }

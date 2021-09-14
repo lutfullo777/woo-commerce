@@ -55,7 +55,7 @@ const HeaderSec = () => {
           }}
         />
         <div className="sale">
-          <img src={bitmap} alt="bitmap" />
+          <img src={bitmap} alt="bitmap" style={{width:'50%'}}/>
           <div>
             <p
               style={{
@@ -89,6 +89,9 @@ const HeaderSec = () => {
                 color: "#868686",
                 display: "flex",
                 position: "relative",
+                width:'250px',
+                justifyContent:'space-around',
+                margin:'auto'
               }}
             >
               <span
@@ -101,6 +104,7 @@ const HeaderSec = () => {
                 style={{
                   position: "absolute",
                   top: 50,
+                  left:23,
                   textDecorationLine: "line-through",
                   fontSize: "18px",
                   fontWeight: "500",

@@ -6,7 +6,10 @@ import "./header.css";
 
 export const Header = () => {
   return (
-    <div style={{ position: "absolute", zIndex: 1, width: "100%" }}>
+    <div
+      style={{ position: "absolute", zIndex: 1000, width: "100%" }}
+      className="header"
+    >
       <Navbar bg="none" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
