@@ -67,7 +67,7 @@ const Page2 = () => {
             position: "absolute",
             display: "inline-block",
             top: 0,
-            left: 50,
+            left: 30,
           }}
           src={image5}
           alt="square"
@@ -78,7 +78,7 @@ const Page2 = () => {
           alt="facebook"
         />
         <img
-          style={{ position: "absolute", top: 55, right: 15, width: "200px" }}
+          style={{ position: "absolute", top: 20, right: -10, width: "200px" }}
           src={image7}
           alt="mailchimp"
         />
@@ -88,7 +88,7 @@ const Page2 = () => {
           alt="google-ads"
         />
         <img
-          style={{ position: "absolute", top: 135, right: 40, width: "200px" }}
+          style={{ position: "absolute", top: 150, right: -40, width: "200px" }}
           src={image9}
           alt="jetpack"
         />
